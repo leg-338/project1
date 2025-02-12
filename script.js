@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         btnNo.textContent = prompts[promptIndex];
         promptIndex = (promptIndex + 1) % prompts.length;
 
-        // Увеличиваем кнопку "Да"
+        // Увеличиваем кнопку "Так"
         const currentSize = parseFloat(window.getComputedStyle(btnYes).fontSize);
         btnYes.style.fontSize = `${currentSize * 1.2}px`;
     }
